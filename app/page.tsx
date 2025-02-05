@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col items-center">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <Image
-        src="profilepic.jpg?height=200&width=200"
+        src="profilepic.jpg"
         alt="Siddhant Jain"
         width={200}
         height={200}
