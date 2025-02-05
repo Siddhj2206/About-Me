@@ -1,15 +1,13 @@
-import Image from "next/image"
-
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
-      <Image
-        src="https://explorer1.jpl.nasa.gov/assets/images/galleries/1972_BlueMarble_115334main_image_feature_329_ys_full.jpg"
-        alt="Siddhant Jain"
-        width={200}
-        height={200}
-        className="rounded-full mb-4"
+      <img
+        src="https://explorer1.jpl.nasa.gov/assets/images/galleries/1972_BlueMarble_115334main_image_feature_329_ys_full.jpg",
+        alt="Siddhant Jain",
+        width=200,
+        height=200,
+        className="rounded-full mb-4",
       />
       <div className="max-w-2xl text-center">
         <p className="mb-4">
